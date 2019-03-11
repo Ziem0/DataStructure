@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" line="131" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algo1$DoublyLinkedListTest_testRemove.ic" NAME="DoublyLinkedListTest.testRemove Coverage Results" MODIFIED="1552336211802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -28,7 +30,11 @@
       </file>
       <file leaf-file-name="DynamicArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
@@ -85,16 +91,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="156">
+              <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
-                <element signature="method#iterate#0;class#DoublyLinkedList#0" />
-                <element signature="method#main#0;class#DoublyLinkedList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -123,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -250,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoublyLinkedList">
+  <component name="RunManager" selected="JUnit.DoublyLinkedListTest.testRemove">
     <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.doublyLinkedLista.DoublyLinkedList" />
       <module name="algo1" />
@@ -262,27 +282,33 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SinglyLinedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.linkedLista.SinglyLinedList" />
-      <module name="algo1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.linkedLista.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DynamicArrayTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynamicArrayTest" />
-      <option name="METHOD_NAME" value="insertTest" />
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DoublyLinkedListTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -293,13 +319,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DynamicArrayTest.removeTest_InvalidItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoublyLinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynamicArrayTest" />
-      <option name="METHOD_NAME" value="removeTest_InvalidItem" />
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -310,13 +336,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DynamicArrayTest.removeTest_LastItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoublyLinkedListTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynamicArrayTest" />
-      <option name="METHOD_NAME" value="removeTest_LastItem" />
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="testSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -366,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DynamicArrayTest.removeTest_LastItem" />
-      <item itemvalue="JUnit.DynamicArrayTest.removeTest_InvalidItem" />
-      <item itemvalue="JUnit.DynamicArrayTest.insertTest" />
-      <item itemvalue="Application.SinglyLinedList" />
       <item itemvalue="Application.DoublyLinkedList" />
+      <item itemvalue="JUnit.DoublyLinkedListTest" />
+      <item itemvalue="JUnit.DoublyLinkedListTest.testSize" />
+      <item itemvalue="JUnit.DoublyLinkedListTest.testAdd" />
+      <item itemvalue="JUnit.DoublyLinkedListTest.testRemove" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoublyLinkedListTest.testRemove" />
+        <item itemvalue="JUnit.DoublyLinkedListTest.testAdd" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
         <item itemvalue="Application.DoublyLinkedList" />
-        <item itemvalue="Application.SinglyLinedList" />
-        <item itemvalue="JUnit.DynamicArrayTest.insertTest" />
-        <item itemvalue="JUnit.DynamicArrayTest.removeTest_InvalidItem" />
-        <item itemvalue="JUnit.DynamicArrayTest.removeTest_LastItem" />
+        <item itemvalue="JUnit.DoublyLinkedListTest.testSize" />
       </list>
     </recent_temporary>
   </component>
@@ -393,73 +419,74 @@
       <option name="presentableId" value="Default" />
       <updated>1552245496871</updated>
       <workItem from="1552245499767" duration="3104000" />
-      <workItem from="1552311754801" duration="14584000" />
+      <workItem from="1552311754801" duration="18568000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DynamicArrayTest - 2019.03.10 at 21h 00m 25s.xml">
-      <configuration name="DynamicArrayTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 40m 14s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_addTest - 2019.03.10 at 21h 00m 51s.xml">
-      <configuration name="DynamicArrayTest.addTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 42m 59s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_addTest - 2019.03.10 at 21h 01m 04s.xml">
-      <configuration name="DynamicArrayTest.addTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 43m 22s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest - 2019.03.10 at 21h 01m 15s.xml">
-      <configuration name="DynamicArrayTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 43m 48s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest - 2019.03.10 at 21h 01m 41s.xml">
-      <configuration name="DynamicArrayTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testAdd - 2019.03.11 at 21h 44m 51s.xml">
+      <configuration name="DoublyLinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest - 2019.03.10 at 21h 02m 09s.xml">
-      <configuration name="DynamicArrayTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 00s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_removeTest - 2019.03.10 at 21h 06m 53s.xml">
-      <configuration name="DynamicArrayTest.removeTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 20s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_removeTest_LastItem - 2019.03.10 at 21h 09m 00s.xml">
-      <configuration name="DynamicArrayTest.removeTest_LastItem" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 42s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_removeTest_InvalidItem - 2019.03.10 at 21h 12m 35s.xml">
-      <configuration name="DynamicArrayTest.removeTest_InvalidItem" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 46m 10s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicArrayTest_insertTest - 2019.03.10 at 21h 13m 54s.xml">
-      <configuration name="DynamicArrayTest.insertTest" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 46m 22s.xml">
+      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17688000" />
+    <option name="totallyTimeSpent" value="21672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.328594" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2393027" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280507" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2393027" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -484,16 +511,6 @@
           <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,6 +547,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -543,13 +574,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="156">
+          <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
-            <element signature="method#iterate#0;class#DoublyLinkedList#0" />
-            <element signature="method#main#0;class#DoublyLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
         </state>
       </provider>

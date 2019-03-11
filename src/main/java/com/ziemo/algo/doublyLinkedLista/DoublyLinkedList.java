@@ -1,5 +1,7 @@
 package com.ziemo.algo.doublyLinkedLista;
 
+import java.util.LinkedList;
+
 public class DoublyLinkedList<E> {
 
 	DNode<E> first;
@@ -111,13 +113,17 @@ public class DoublyLinkedList<E> {
 		return true;
 	}
 
-	public void iterate() {
+	public String iterate() {
 		DNode<E> current = first;
+		StringBuilder result = new StringBuilder("[");
 		while (current != null) {
-			System.out.println(current.element);
+			result.append(current.element);
 			current = current.nextNode;
+			if (current != null) {
+				result.append(", ");
+			}
 		}
-		System.out.println();
+		return result.append("]").toString();
 	}
 
 
@@ -129,9 +135,6 @@ public class DoublyLinkedList<E> {
 		list.add(2, "ziemo");
 		list.add(3, "mama");
 		list.add(1, "tata");
-		list.iterate();
-
-		list.remove(0);
-		list.iterate();
+		System.out.println(list.iterate());
 	}
 }
