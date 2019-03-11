@@ -121,8 +121,6 @@ public class DoublyLinkedList<E> {
 	}
 
 
-
-
 	public static void main(String[] args) {
 
 		DoublyLinkedList<String> list = new DoublyLinkedList<>();

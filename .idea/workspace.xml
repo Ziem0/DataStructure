@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" line="133" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" line="131" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="288">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -36,12 +34,11 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="121">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -55,8 +52,8 @@
       <file leaf-file-name="NodePair.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="44">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,10 +62,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
+                <element signature="method#main#0;class#SinglyLinedList#0" />
               </folding>
             </state>
           </provider>
@@ -77,8 +75,8 @@
       <file leaf-file-name="DNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -90,12 +88,13 @@
       <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="165">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="method#iterate#0;class#DoublyLinkedList#0" />
+                <element signature="method#main#0;class#DoublyLinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -394,7 +393,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552245496871</updated>
       <workItem from="1552245499767" duration="3104000" />
-      <workItem from="1552311754801" duration="13153000" />
+      <workItem from="1552311754801" duration="14584000" />
     </task>
     <servers />
   </component>
@@ -431,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16257000" />
+    <option name="totallyTimeSpent" value="17688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
@@ -486,24 +485,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="288">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="121">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
@@ -515,26 +513,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
+            <element signature="method#main#0;class#SinglyLinedList#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="22">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
@@ -544,12 +543,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="165">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
             <element signature="method#iterate#0;class#DoublyLinkedList#0" />
+            <element signature="method#main#0;class#DoublyLinkedList#0" />
           </folding>
         </state>
       </provider>
