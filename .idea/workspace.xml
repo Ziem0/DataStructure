@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StackkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algo1$CustomQueueTest_testEnqueue.ic" NAME="CustomQueueTest.testEnqueue Coverage Results" MODIFIED="1552422851837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algo1$StackkTest.ic" NAME="StackkTest Coverage Results" MODIFIED="1552406297515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algo1$DoublyLinkedListTest_testRemove.ic" NAME="DoublyLinkedListTest.testRemove Coverage Results" MODIFIED="1552336211802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -141,16 +142,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackkTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackkTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StackkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="22">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomQueueTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CustomQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +237,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" />
       </list>
     </option>
   </component>
@@ -282,6 +340,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -326,18 +393,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DoublyLinkedListTest">
+  <component name="RunManager" selected="JUnit.CustomQueueTest.testEnqueue">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -347,14 +414,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomQueueTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackkTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="METHOD_NAME" value="testEnqueue" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -364,12 +431,29 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackkTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomQueueTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackkTest" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CustomQueueTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
       <option name="METHOD_NAME" value="testPeek" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -381,30 +465,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackkTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomQueueTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackkTest" />
-      <option name="METHOD_NAME" value="testPop" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StackkTest.testStackUnderFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackkTest" />
-      <option name="METHOD_NAME" value="testStackUnderFlow" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="METHOD_NAME" value="testSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,19 +521,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StackkTest.testPop" />
-      <item itemvalue="JUnit.StackkTest.testStackUnderFlow" />
-      <item itemvalue="JUnit.StackkTest.testPeek" />
-      <item itemvalue="JUnit.StackkTest" />
-      <item itemvalue="JUnit.DoublyLinkedListTest" />
+      <item itemvalue="JUnit.CustomQueueTest.testSize" />
+      <item itemvalue="JUnit.CustomQueueTest.testIsEmpty" />
+      <item itemvalue="JUnit.CustomQueueTest.testPeek" />
+      <item itemvalue="JUnit.CustomQueueTest.testDequeue" />
+      <item itemvalue="JUnit.CustomQueueTest.testEnqueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DoublyLinkedListTest" />
-        <item itemvalue="JUnit.StackkTest" />
-        <item itemvalue="JUnit.StackkTest.testPeek" />
-        <item itemvalue="JUnit.StackkTest.testStackUnderFlow" />
-        <item itemvalue="JUnit.StackkTest.testPop" />
+        <item itemvalue="JUnit.CustomQueueTest.testEnqueue" />
+        <item itemvalue="JUnit.CustomQueueTest.testDequeue" />
+        <item itemvalue="JUnit.CustomQueueTest.testPeek" />
+        <item itemvalue="JUnit.CustomQueueTest.testIsEmpty" />
+        <item itemvalue="JUnit.CustomQueueTest.testSize" />
       </list>
     </recent_temporary>
   </component>
@@ -482,44 +549,44 @@
       <updated>1552245496871</updated>
       <workItem from="1552245499767" duration="3104000" />
       <workItem from="1552311754801" duration="19449000" />
-      <workItem from="1552398002468" duration="7042000" />
+      <workItem from="1552398002468" duration="15736000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 50m 14s.xml">
-      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 19m 50s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 07s.xml">
-      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 24m 48s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 20s.xml">
-      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 25m 03s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 24s.xml">
-      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 30m 01s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest_testPeek - 2019.03.12 at 16h 54m 37s.xml">
-      <configuration name="StackkTest.testPeek" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 30m 29s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest - 2019.03.12 at 16h 56m 34s.xml">
-      <configuration name="StackkTest" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 32m 00s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest - 2019.03.12 at 16h 56m 45s.xml">
-      <configuration name="StackkTest" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 32m 18s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest - 2019.03.12 at 16h 57m 30s.xml">
-      <configuration name="StackkTest" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 32m 40s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackkTest - 2019.03.12 at 16h 58m 19s.xml">
-      <configuration name="StackkTest" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 33m 27s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.03.12 at 16h 58m 50s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 34m 13s.xml">
+      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29595000" />
+    <option name="totallyTimeSpent" value="38289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
@@ -547,7 +614,7 @@
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2266244" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -738,15 +805,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StackkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="22">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
