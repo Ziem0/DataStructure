@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StackkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algo1$StackkTest.ic" NAME="StackkTest Coverage Results" MODIFIED="1552406297515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algo1$DoublyLinkedListTest_testRemove.ic" NAME="DoublyLinkedListTest.testRemove Coverage Results" MODIFIED="1552336211802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
@@ -22,34 +25,24 @@
       <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="187">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DynamicArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="99">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,11 +60,9 @@
       <file leaf-file-name="SinglyLinedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="299">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
                 <element signature="method#main#0;class#SinglyLinedList#0" />
               </folding>
             </state>
@@ -82,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -94,26 +85,72 @@
       <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+            <state relative-caret-position="79">
+              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackOverFlow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
+      <file leaf-file-name="StackUnderFlow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stackk.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackkTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StackkTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +161,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -143,6 +180,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StackkTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" />
       </list>
     </option>
   </component>
@@ -182,6 +223,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,11 +275,25 @@
               <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="linkedLista" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,18 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DoublyLinkedListTest.testRemove">
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.doublyLinkedLista.DoublyLinkedList" />
-      <module name="algo1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.doublyLinkedLista.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DoublyLinkedListTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -302,13 +347,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DoublyLinkedListTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="MAIN_CLASS_NAME" value="StackkTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StackkTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackkTest" />
+      <option name="METHOD_NAME" value="testPeek" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -319,13 +381,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DoublyLinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackkTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="MAIN_CLASS_NAME" value="StackkTest" />
+      <option name="METHOD_NAME" value="testPop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,13 +398,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DoublyLinkedListTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackkTest.testStackUnderFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="testSize" />
+      <option name="MAIN_CLASS_NAME" value="StackkTest" />
+      <option name="METHOD_NAME" value="testStackUnderFlow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -392,19 +454,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DoublyLinkedList" />
+      <item itemvalue="JUnit.StackkTest.testPop" />
+      <item itemvalue="JUnit.StackkTest.testStackUnderFlow" />
+      <item itemvalue="JUnit.StackkTest.testPeek" />
+      <item itemvalue="JUnit.StackkTest" />
       <item itemvalue="JUnit.DoublyLinkedListTest" />
-      <item itemvalue="JUnit.DoublyLinkedListTest.testSize" />
-      <item itemvalue="JUnit.DoublyLinkedListTest.testAdd" />
-      <item itemvalue="JUnit.DoublyLinkedListTest.testRemove" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DoublyLinkedListTest.testRemove" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.testAdd" />
         <item itemvalue="JUnit.DoublyLinkedListTest" />
-        <item itemvalue="Application.DoublyLinkedList" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.testSize" />
+        <item itemvalue="JUnit.StackkTest" />
+        <item itemvalue="JUnit.StackkTest.testPeek" />
+        <item itemvalue="JUnit.StackkTest.testStackUnderFlow" />
+        <item itemvalue="JUnit.StackkTest.testPop" />
       </list>
     </recent_temporary>
   </component>
@@ -419,44 +481,45 @@
       <option name="presentableId" value="Default" />
       <updated>1552245496871</updated>
       <workItem from="1552245499767" duration="3104000" />
-      <workItem from="1552311754801" duration="18568000" />
+      <workItem from="1552311754801" duration="19449000" />
+      <workItem from="1552398002468" duration="7042000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 40m 14s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 50m 14s.xml">
+      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 42m 59s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 07s.xml">
+      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 43m 22s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 20s.xml">
+      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 43m 48s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest_testStackUnderFlow - 2019.03.12 at 16h 51m 24s.xml">
+      <configuration name="StackkTest.testStackUnderFlow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testAdd - 2019.03.11 at 21h 44m 51s.xml">
-      <configuration name="DoublyLinkedListTest.testAdd" configurationId="JUnit" />
+    <history-entry file="StackkTest_testPeek - 2019.03.12 at 16h 54m 37s.xml">
+      <configuration name="StackkTest.testPeek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 00s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest - 2019.03.12 at 16h 56m 34s.xml">
+      <configuration name="StackkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 20s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest - 2019.03.12 at 16h 56m 45s.xml">
+      <configuration name="StackkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 45m 42s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest - 2019.03.12 at 16h 57m 30s.xml">
+      <configuration name="StackkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 46m 10s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="StackkTest - 2019.03.12 at 16h 58m 19s.xml">
+      <configuration name="StackkTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoublyLinkedListTest_testRemove - 2019.03.11 at 21h 46m 22s.xml">
-      <configuration name="DoublyLinkedListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="DoublyLinkedListTest - 2019.03.12 at 16h 58m 50s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21672000" />
+    <option name="totallyTimeSpent" value="29595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
@@ -481,10 +544,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2393027" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2266244" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,27 +566,25 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="99">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -537,27 +598,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="704">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
             <element signature="method#main#0;class#SinglyLinedList#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
@@ -574,24 +619,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="1331">
           <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="method#main#0;class#SinglyLinedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
