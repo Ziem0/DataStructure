@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class BinarySearchTree {
-
 	/*
 	1. Given an array sorted in increasing order with unique integer elements write an algorithm to create a
 	binary search tree with minimal height. Hint: The middle element of the array should be the root.
@@ -14,7 +13,6 @@ public class BinarySearchTree {
 	and all it'schildren but you may think about the possibility to make a version of remove what only removes the
 	requested node and re-orders it's descendants.
 	 */
-
 	TNode root;
 
 	// init based on recurrency
