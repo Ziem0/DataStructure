@@ -1,7 +1,5 @@
 package com.ziemo.algo.doublyLinkedLista;
 
-import java.util.LinkedList;
-
 public class DoublyLinkedList<E> {
 
 	DNode<E> first;

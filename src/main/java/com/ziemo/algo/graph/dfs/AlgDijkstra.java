@@ -5,13 +5,6 @@ import java.util.Set;
 
 public class AlgDijkstra {
 
-
-
-
-
-
-
-
 	public static void main(String[] args) {
 		Set<NodeDfs> nodes = new HashSet<>();
 		NodeDfs node1 = new NodeDfs("one");

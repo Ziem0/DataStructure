@@ -52,15 +52,13 @@ public class CustomHashMap<K, V> {
 		}
 	}
 
-
 	private int getHash(K key) {
-//		System.out.println(key.hashCode() % size);
 		return key.hashCode() % size;
 	}
 
-	private void resizeIfNeeded() {
-
-	}
+//	private void resizeIfNeeded() {
+//
+//	}
 
 
 

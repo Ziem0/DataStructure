@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/GraphDfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/BFSsimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/repeater/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,249 +28,12 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+    <leaf>
+      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicArrayTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodePair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SinglyLinedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-              <folding>
-                <element signature="method#main#0;class#SinglyLinedList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackOverFlow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackUnderFlow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <element signature="method#main#0;class#BinarySearchTree#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/MinHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-              <folding>
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomHash.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHash.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/KeyValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeDfs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="method#equals#0;class#NodeDfs#0" />
-                <element signature="method#hashCode#0;class#NodeDfs#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphDfs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/GraphDfs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlgDijkstra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#AlgDijkstra#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DFSsimple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFSsimple.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/BFSsimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -289,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java" />
@@ -300,34 +64,38 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackkTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/CustomQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/sets/CustomSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/CustomTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySeacrhTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/TNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/HNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/CustomHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/minHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHash.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/KeyValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/algorithms/BFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/BFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/Nodee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfx.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/GraphDfs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/BFSsimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/repeater/RNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/repeater/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/BinarySearch.java" />
       </list>
     </option>
   </component>
@@ -354,7 +122,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="27" />
     <option name="width" value="1366" />
     <option name="height" value="741" />
@@ -365,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -376,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,6 +186,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="doublyLinkedLista" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,6 +205,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
@@ -480,6 +269,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="repeater" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="sets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -510,8 +308,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,7 +318,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Algorithms/part2/breadth-first-search-twilightkid-master/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -544,14 +340,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFSsimple">
-    <configuration name="BFSsimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.graph.simple.BFSsimple" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.divideAndConquer.BinarySearch" />
       <module name="algo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.graph.simple.*" />
+          <option name="PATTERN" value="com.ziemo.algo.divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.tree.BinarySearchTree" />
+      <module name="algo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ziemo.algo.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -567,35 +374,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DFSsimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.graph.simple.DFSsimple" />
+    <configuration name="CustomQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.queue.CustomQueue" />
       <module name="algo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.graph.simple.*" />
+          <option name="PATTERN" value="com.ziemo.algo.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GraphDfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.graph.dfs.GraphDfs" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.repeater.Temp" />
       <module name="algo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.graph.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NodeDfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ziemo.algo.graph.dfs.NodeDfs" />
-      <module name="algo1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ziemo.algo.graph.dfs.*" />
+          <option name="PATTERN" value="com.ziemo.algo.repeater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,19 +438,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.CustomQueue" />
+      <item itemvalue="Application.BinarySearchTree" />
       <item itemvalue="Application.CustomHashMap" />
-      <item itemvalue="Application.NodeDfs" />
-      <item itemvalue="Application.GraphDfs" />
-      <item itemvalue="Application.DFSsimple" />
-      <item itemvalue="Application.BFSsimple" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BFSsimple" />
-        <item itemvalue="Application.DFSsimple" />
-        <item itemvalue="Application.GraphDfs" />
-        <item itemvalue="Application.NodeDfs" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.CustomHashMap" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.CustomQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +469,12 @@
       <workItem from="1552398002468" duration="16387000" />
       <workItem from="1552488805713" duration="15957000" />
       <workItem from="1552570857364" duration="16812000" />
-      <workItem from="1552655806507" duration="10847000" />
+      <workItem from="1552655806507" duration="12625000" />
+      <workItem from="1552751821160" duration="10882000" />
+      <workItem from="1552846881791" duration="6032000" />
+      <workItem from="1552924426410" duration="12099000" />
+      <workItem from="1553001032616" duration="10811000" />
+      <workItem from="1553084861695" duration="3977000" />
     </task>
     <servers />
   </component>
@@ -710,44 +511,77 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82556000" />
+    <option name="totallyTimeSpent" value="128135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <frame x="0" y="-31" width="1366" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280507" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3280507" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1473851" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16015625" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13543192" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23499268" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16106443" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3280507" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23499268" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -756,31 +590,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -824,6 +633,7 @@
         <state relative-caret-position="99">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
+            <element signature="e#169#170#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
@@ -903,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/TNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/sets/CustomSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -929,9 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/QNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -946,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackUnderFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -964,9 +754,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/HNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/algorithms/BFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/BFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/bfs/GraphDFS.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/StackOverFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="55">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
@@ -975,79 +769,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/SinglyLinedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state>
           <folding>
             <element signature="method#main#0;class#SinglyLinedList#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/repeater/RNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/GraphDfs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="22">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="77">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#AlgDijkstra#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="275">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="method#main#0;class#BinarySearchTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/HNode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/heap/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1075,38 +831,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/algorithms/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/stack/Stackk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DoublyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="55">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/bfs/GraphDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/doublyLinkedLista/DNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/NodePair.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/linkedLista/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#NodeDfs#0" />
+            <element signature="method#hashCode#0;class#NodeDfs#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/queue/CustomQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/tree/TNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,67 +927,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/NodeDfs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/hash/CustomHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="method#equals#0;class#NodeDfs#0" />
-            <element signature="method#hashCode#0;class#NodeDfs#0" />
-          </folding>
+        <state relative-caret-position="415">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/GraphDfs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/BFSsimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/dfs/AlgDijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="55">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#AlgDijkstra#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/DFSsimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="180">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/graph/simple/BFSsimple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/repeater/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="55">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>

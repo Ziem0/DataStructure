@@ -51,8 +51,6 @@ public class DFSsimple {
 		dfs.addEdge(2, 0);
 		dfs.addEdge(2, 3);
 		dfs.addEdge(3, 3);
-
 		dfs.DFS(2);
-
 	}
 }
