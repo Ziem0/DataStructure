@@ -1,4 +1,4 @@
-package com.ziemo.algo.divideAndConquer;
+package com.ziemo.algo.divideAndConquer.tasks;
 
 public class CyclicList {
 

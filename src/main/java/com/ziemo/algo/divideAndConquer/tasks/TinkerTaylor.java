@@ -1,4 +1,4 @@
-package com.ziemo.algo.divideAndConquer;
+package com.ziemo.algo.divideAndConquer.tasks;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
