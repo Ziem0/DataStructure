@@ -22,7 +22,6 @@ public class MergeSort {
 			divide(toSort, middle + 1, end);   // finding depth
 			merge(toSort, start, middle, end);
 		}
-
 	}
 
 	private void merge(List<Integer> toSort, int start, int middle, int end) {
@@ -53,7 +52,6 @@ public class MergeSort {
 		}
 
 	}
-
 
 	public static void main(String[] args) {
 
