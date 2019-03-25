@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536685ee-fac2-49c4-af46-0a4ef229395d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QuickSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuickSortTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/sorting/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +44,7 @@
       <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/sorting/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="319">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="242">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -75,12 +74,8 @@
       <file leaf-file-name="QuickSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/QuickSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -312,8 +307,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/sorting/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QuickSortTest.java" />
       </list>
     </option>
   </component>
@@ -739,20 +734,11 @@
       <workItem from="1553267698356" duration="11069000" />
       <workItem from="1553344203044" duration="2055000" />
       <workItem from="1553437675011" duration="18369000" />
-      <workItem from="1553524392935" duration="5279000" />
+      <workItem from="1553524392935" duration="17406000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 33m 27s.xml">
-      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomQueueTest_testEnqueue - 2019.03.12 at 21h 34m 13s.xml">
-      <configuration name="CustomQueueTest.testEnqueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest_testSearchFound - 2019.03.20 at 15h 00m 07s.xml">
-      <configuration name="BinarySearchTest.testSearchFound" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTest_testSearchFound - 2019.03.20 at 15h 00m 14s.xml">
       <configuration name="BinarySearchTest.testSearchFound" configurationId="JUnit" />
     </history-entry>
@@ -774,9 +760,18 @@
     <history-entry file="QuickSortTest_mainTest - 2019.03.25 at 17h 00m 55s.xml">
       <configuration name="QuickSortTest.mainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QuickSortTest_mainTest - 2019.03.25 at 17h 42m 20s.xml">
+      <configuration name="QuickSortTest.mainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTest_mainTest - 2019.03.25 at 17h 42m 25s.xml">
+      <configuration name="QuickSortTest.mainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTest_mainTest - 2019.03.25 at 23h 58m 13s.xml">
+      <configuration name="QuickSortTest.mainTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181728000" />
+    <option name="totallyTimeSpent" value="193855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-31" width="1366" height="799" extended-state="0" />
@@ -785,7 +780,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="7" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32552084" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
@@ -794,7 +789,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19327731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13464236" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -815,13 +810,14 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18067227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2398317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
       <window_info id="DB Browser" order="7" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -830,21 +826,20 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32552084" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23499268" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23499268" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -1182,9 +1177,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/sorting/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="319">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1202,28 +1204,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QuickSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/algo/divideAndConquer/efficient/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="242">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>

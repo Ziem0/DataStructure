@@ -22,7 +22,7 @@ class QuickSortTest {
 		Arrays.stream(ints).forEach(data::add);
 		List<Integer> expecting = data;
 
-		quickSort.sort(data);
+		quickSort.sortFinal(data);
 
 		StringBuilder result = new StringBuilder();
 		data.forEach(e -> result.append(e).append(" "));
