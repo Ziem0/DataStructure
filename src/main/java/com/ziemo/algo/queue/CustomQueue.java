@@ -40,7 +40,7 @@ public class CustomQueue {
 			if (current.getNextNode() == null) {
 				current.setNextNode(newNode);
 				tail = newNode;
-			} else if (i == priority - 1) {
+			} else if (i == priority - 1) {                   // priority==index
 				newNode.setNextNode(current.getNextNode());
 				current.setNextNode(newNode);
 			} else {
@@ -69,7 +69,6 @@ public class CustomQueue {
 		}
 	}
 
-
 	public int queueSize() {
 		return size;
 	}
@@ -78,4 +77,22 @@ public class CustomQueue {
 		return head == null;
 	}
 
+	public String print() {
+		StringBuilder s = new StringBuilder();
+		QNode current = head;
+		while (current != null) {
+			s.append(current.getValue()).append(" ");
+			current = current.getNextNode();
+		}
+		return s.toString();
+	}
+
+
+	public static void main(String[] args) {
+		CustomQueue q = new CustomQueue();
+		q.enqueue("ziemo", 1);
+		q.enqueue("ania", 1);
+		q.enqueue("nina", 2);
+		System.out.println(q.print());
+	}
 }

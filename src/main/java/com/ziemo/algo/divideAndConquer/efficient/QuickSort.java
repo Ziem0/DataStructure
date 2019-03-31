@@ -63,9 +63,7 @@ public class QuickSort {
 				Collections.swap(toSort, i+start, line++);
 			}
 		}
-		if (toSort.get(pivot) < toSort.get(line)) {
 			Collections.swap(toSort, pivot, line);
-		}
 
 		if (start < line) {
 			quickSort(toSort, start, line - 1);
@@ -101,7 +99,7 @@ public class QuickSort {
 		Collections.swap(data, start, pivot);
 		int border = start;
 
-		for (int i = border; i <= end; i++) {
+		for (int i = border+1; i <= end; i++) {
 			if (data.get(i) < data.get(start)) {
 				Collections.swap(data,i,++border);
 			}
@@ -110,7 +108,7 @@ public class QuickSort {
 		return border;
 	}
 
-
+	//////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -129,5 +127,7 @@ public class QuickSort {
 
 //		sort.quickSort(ints);
 //		Arrays.stream(ints).forEach(e -> System.out.print(e + " "));
+
+
 	}
 }

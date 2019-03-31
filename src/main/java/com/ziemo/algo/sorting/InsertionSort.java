@@ -9,7 +9,7 @@ public class InsertionSort {
 	public static void main(String[] args) {
 
 		LinkedList<Integer> data = new LinkedList<>();
-		int[] random = new Random().ints(5, 1, 100).toArray();
+		int[] random = new Random().ints(10, 1, 100).toArray();
 		Arrays.stream(random).forEach(data::add);
 
 		//3 4 1 2 7

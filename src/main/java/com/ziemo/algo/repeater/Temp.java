@@ -1,60 +1,21 @@
 package com.ziemo.algo.repeater;
 
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
+public class Temp {
 
-public class Temp { //BFS
 
-	int size;
-	LinkedList<Integer>[] nodes;
 
-	public Temp(int size) {
-		this.size = size;
-		this.nodes = new LinkedList[size];
-		for (int i = 0; i < nodes.length; i++) {
-			nodes[i] = new LinkedList<>();
-		}
-	}
-
-	public void addEdge(int source, int dest) {
-		nodes[source].add(dest);
-	}
-
-	public void BFS(int source) {
-		boolean[] visisted = new boolean[size];
-		ArrayDeque<Integer> queue = new ArrayDeque<>();
-
-		visisted[source] = true;
-		queue.add(source);
-
-		while (queue.size() > 0) {
-			source = queue.poll();
-			System.out.println(source + " → " + nodes[source]);
-
-			Iterator<Integer> i = nodes[source].iterator();
-			while (i.hasNext()) {
-				int n = i.next();
-				if (!visisted[n]) {
-					visisted[n] = true;
-					queue.add(n);
-				}
-			}
-		}
-	}
 
 	public static void main(String[] args) {
-		Temp t = new Temp(4);
-		t.addEdge(0,2);
-		t.addEdge(1,2);
-		t.addEdge(2,0);
-		t.addEdge(0,1);
-		t.addEdge(2,1);
-		t.addEdge(1,3);
-		t.addEdge(3, 0);
-		t.BFS(0);
+//		Temp t = new Temp(4);
+//		t.addEdge(0,2);
+//		t.addEdge(1,2);
+//		t.addEdge(2,0);
+//		t.addEdge(0,1);
+//		t.addEdge(2,1);
+//		t.addEdge(1,3);
+//		t.addEdge(3, 0);
+//		t.BFS(0);
 	}
 
 

@@ -16,7 +16,6 @@ public class TinkerTaylor<T> {
 			indexToRemove = (indexToRemove + k - INDEX_CORRECTION) % players.size();
 			players.remove(indexToRemove);
 		}
-
 		return players.get(FIRST_INDEX);
 	}
 
@@ -31,7 +30,6 @@ public class TinkerTaylor<T> {
 		result.addLast(players.remove(0));
 		return result;
 	}
-
 
 
 

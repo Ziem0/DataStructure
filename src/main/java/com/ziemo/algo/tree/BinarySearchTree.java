@@ -12,6 +12,8 @@ public class BinarySearchTree {
 	depth after calling these. Also remove can be implemented by removing the element
 	and all it'schildren but you may think about the possibility to make a version of remove what only removes the
 	requested node and re-orders it's descendants.
+
+	based on a sorted list from the lowest to the biggest
 	 */
 	TNode root;
 
@@ -26,7 +28,7 @@ public class BinarySearchTree {
 		if (elements.size() > 0) {
 			int middle = (int) Math.floor(elements.size() / 2);
 			TNode newNode = new TNode(elements.get(middle));
-			newNode.left = buildTree(elements.subList(0, middle));
+			newNode.left = buildTree(elements.subList(0, middle));    // dzieli z listy w kolejnosci middle a nie jak w liscie
 			if (elements.size() > 2) {
 				newNode.right = buildTree(elements.subList(middle + 1,elements.size()));
 			}

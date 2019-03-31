@@ -1,9 +1,6 @@
 package com.ziemo.algo.divideAndConquer.efficient;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class MergeSort {
 
@@ -17,7 +14,7 @@ public class MergeSort {
 
 	private void divide(List<Integer> toSort, int start, int end) {
 		if (start < end) {
-			int middle = (start + end) / 2;
+			int middle = (start + end) / 2;   // floor default
 			divide(toSort, start, middle);
 			divide(toSort, middle + 1, end);   // finding depth
 			merge(toSort, start, middle, end);

@@ -1,6 +1,7 @@
 package com.ziemo.algo.sorting;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -21,9 +22,7 @@ public class SelectionSort {
 				}
 			}
 
-			int lowestValue = data.get(currentMin);
-			data.set(currentMin, data.get(i));
-			data.set(i, lowestValue);
+			Collections.swap(data, currentMin, i);
 		}
 
 		data.forEach(e -> System.out.print(e+" "));

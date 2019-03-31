@@ -34,14 +34,23 @@ public class CustomHashMap<K, V> {
 
 	}
 
-	public V getValue(K key) {
-		int position = getHash(key);
-		return (V) elements[position].get(0).value;
+	public V get(K key) {
+		int position = key.hashCode() % size;
+		for (KeyValue keyValue : elements[position]) {
+			if (keyValue.key == key) {
+				return (V)keyValue.value;
+			}
+		}
+		return null;
 	}
 
 	public void remove(K key) {
-		int position = getHash(key);
-		elements[position].remove();
+		int position = key.hashCode() % size;
+		for (KeyValue keyValue : elements[position]) {
+			if (keyValue.key == key) {
+				elements[position].remove(keyValue);
+			}
+		}
 	}
 
 	public void clearAll() {
@@ -59,8 +68,6 @@ public class CustomHashMap<K, V> {
 //	private void resizeIfNeeded() {
 //
 //	}
-
-
 
 
 

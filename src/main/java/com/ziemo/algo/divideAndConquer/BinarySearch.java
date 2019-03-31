@@ -27,6 +27,18 @@ public class BinarySearch {
 			result = search(temp, wanted);
 		}
 		return result;
-	}
 
+//		if (data.size() > 0) {
+//			int middle = data.size() / 2;
+//			if (v == data.get(middle)) {
+//				return true;
+//			}
+//			if (data.get(middle) > v) {
+//				return search(data.subList(0, middle), v);
+//			} else {
+//				return search(data.subList(middle + 1, data.size()), v);
+//			}
+//		}
+//		return false;
+	}
 }
